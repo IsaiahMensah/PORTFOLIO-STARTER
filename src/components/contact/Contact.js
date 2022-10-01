@@ -15,7 +15,7 @@ const Contact = () => {
         "service_5o0k38d",
         "template_y3yjl2o",
         form.current,
-        "LTuqsnDIc9y3h7Qyj"
+        "yrpcsbf0DlyIVNIUp"
       )
       .then(
         (result) => {
@@ -46,8 +46,18 @@ const Contact = () => {
       {/* right side form */}
       <div className="c-right">
         <form ref={form} onSubmit={sendEmail}>
-          <input type="text" name="user_name" className="user"placeholder="Name" />
-          <input type="email"name="user_email" className="user" placeholder="Email"/>
+          <input
+            type="text"
+            name="user_name"
+            className="user"
+            placeholder="Name"
+          />
+          <input
+            type="email"
+            name="user_email"
+            className="user"
+            placeholder="Email"
+          />
           <textarea name="message" className="user" placeholder="Message" />
           <input type="submit" value="Send" className="button" />
           <span>{done && "Thanks for Contacting me"}</span>

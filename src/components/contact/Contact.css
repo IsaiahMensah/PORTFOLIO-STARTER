@@ -7,18 +7,17 @@
   padding-top: 3rem;
 }
 
-.c-right button{
-    height: 3rem;
-    width: 6rem;
-}
 .c-right{
     display: flex;
     justify-content: center;
     position: relative;
     flex: 1;
-    left:14rem;
 }
-
+.c-right span{
+    font-size: 20px;
+    color: orange;
+    font-weight: 700;
+}
 .c-right>form
 {
     display: flex;
@@ -29,7 +28,7 @@
 }
 
 .c-right .user{
-    width: 25rem;
+    width: 20rem;
     height: 2rem;
     padding: 0.3em;
     outline: none;
@@ -39,7 +38,7 @@
 }
 
 textarea{
-    height: 6rem!important;
+    height: 4rem!important;
 }
 
 .c-blur1{
